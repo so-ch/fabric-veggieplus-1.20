@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "veggieplus",
+	"version": "${version}",
+	"name": "VeggiePlus",
+	"description": "This adds a several crops.",
+	"authors": [
+		"Song"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/veggieplus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.song.veggieplus.VeggiePlus"
+		],
+		"client": [
+			"net.song.veggieplus.VeggiePlusClient"
+		],
+		"fabric-datagen": [
+			"net.song.veggieplus.VeggiePlusDataGenerator"
+		]
+	},
+	"mixins": [
+		"veggieplus.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
