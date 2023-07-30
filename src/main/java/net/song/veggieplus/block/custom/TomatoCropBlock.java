@@ -4,9 +4,6 @@ import net.minecraft.block.*;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.IntProperty;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.shape.VoxelShape;
-import net.minecraft.world.BlockView;
 import net.song.veggieplus.item.ModItems;
 
 public class TomatoCropBlock extends CropBlock {

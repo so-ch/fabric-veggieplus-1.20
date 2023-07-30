@@ -2,7 +2,6 @@ package net.song.veggieplus;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.minecraft.item.ItemConvertible;
 import net.song.veggieplus.block.ModBlocks;
 import net.song.veggieplus.item.ModItems;
 import org.slf4j.Logger;
