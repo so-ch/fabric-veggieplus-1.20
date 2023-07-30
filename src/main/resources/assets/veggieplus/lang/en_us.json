@@ -1,6 +1,9 @@
 {
   "item.veggieplus.tomato": "Tomato",
   "item.veggieplus.tomato_seeds": "Tomato Seeds",
+  "item.veggieplus.rice": "Rice",
+  "item.veggieplus.rice_seeds": "Rice Seeds",
 
-  "block.veggieplus.tomato_crop": "Tomato Crop"
+  "block.veggieplus.tomato_crop": "Tomato Crop",
+  "block.veggieplus.rice_crop": "Rice Crop"
 }

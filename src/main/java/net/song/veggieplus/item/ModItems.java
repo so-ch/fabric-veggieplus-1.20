@@ -15,23 +15,35 @@ import net.song.veggieplus.block.ModBlocks;
 public class ModItems {
 
     // add new items
+    public static final Item RICE = registerItem("rice", new Item(new FabricItemSettings()));
+
+    // add new food items
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
+
+    // add new seeds
     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", new AliasedBlockItem(ModBlocks.TOMATO_CROP,
             new FabricItemSettings()));
 
-    // add new ingredient items
+    public static final Item RICE_SEEDS = registerItem("rice_seeds", new AliasedBlockItem(ModBlocks.RICE_CROP,
+            new FabricItemSettings()));
+
+    // add to category new ingredient items
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
+        entries.add(RICE);
     }
-    // add new food and drink items
+
+    // add to category new food and drink items
     private static void addItemsToFoodAndDrinkItemGroup(FabricItemGroupEntries entries) {
         entries.add(TOMATO);
     }
-    //add new natural items
+
+    //add to category new natural items
     private static void addItemsToNaturalItemGroup(FabricItemGroupEntries entries) {
         entries.add(TOMATO_SEEDS);
+        entries.add(RICE_SEEDS);
     }
 
-    // register new items
+    // define register new items method
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(VeggiePlus.MODID, name), item);
     }
