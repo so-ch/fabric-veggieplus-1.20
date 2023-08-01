@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "veggieplus:rice"
+    },
+    {
+      "item": "veggieplus:rice"
+    },
+    {
+      "item": "veggieplus:rice"
+    }
+  ],
+  "result": {
+    "item": "veggieplus:bowl_of_rice"
+  }
+}
