@@ -3,16 +3,22 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "minecraft:bowl"
+      "item": "minecraft:dried_kelp"
     },
     {
       "item": "veggieplus:rice"
     },
     {
       "item": "veggieplus:rice"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:carrot"
     }
   ],
   "result": {
-    "item": "veggieplus:bowl_of_rice"
+    "item": "veggieplus:kimbap"
   }
 }

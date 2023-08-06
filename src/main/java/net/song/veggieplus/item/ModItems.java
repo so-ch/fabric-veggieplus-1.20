@@ -22,7 +22,8 @@ public class ModItems {
     // add new food items
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item BOWL_OF_RICE = registerItem("bowl_of_rice", new Item(new FabricItemSettings().food(ModFoodComponents.BOWL_OF_RICE)));
-    
+    public static final Item KIMBAP = registerItem("kimbap", new Item(new FabricItemSettings().food(ModFoodComponents.KIMBAP)));
+
     // add new stew items
     public static final Item PASTA = registerItem("pasta", new StewItem(new FabricItemSettings().food(ModFoodComponents.PASTA)));
 
@@ -43,6 +44,7 @@ public class ModItems {
         entries.add(TOMATO);
         entries.add(BOWL_OF_RICE);
         entries.add(PASTA);
+        entries.add(KIMBAP);
     }
 
     //add to category new natural items
